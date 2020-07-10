@@ -3,8 +3,9 @@ import './App.css';
 import {
   BrowserRouter as Router,
   // Switch,
-  // Route,
-  Link
+  Route,
+  Link,
+  Switch
 } from "react-router-dom";
 
 export default function App() {
@@ -24,7 +25,11 @@ export default function App() {
               </li>
             </ul>
           </nav>
-
+          <Switch>
+            <Route path="/about">
+              <About />
+            </Route>
+          </Switch>
 
         </div>
 
