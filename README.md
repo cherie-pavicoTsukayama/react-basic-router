@@ -1,4 +1,12 @@
+# Basic React Router
+Using this as my playground to understand the basics of react router.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Final Result
+<img src="public/images/react-router.gif">
+
+
+
 
 ## Available Scripts
 
